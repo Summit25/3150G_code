@@ -18,6 +18,7 @@ void test3() {
     wait(100, msec);
     TurnMaxTimePID(TestPara, -54, 0.4, true);
     MoveEncoderPID(TestPara, 70, 24, 0.4, -54, true);
+    MoveEncoderPID(TestPara, -70, 40, 0.4, -54, true);
  
     
     

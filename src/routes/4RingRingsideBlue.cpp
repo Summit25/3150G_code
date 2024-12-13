@@ -17,10 +17,10 @@ void test2() {
     RunRoller(100);
     wait(100, msec);
     TurnMaxTimePID(TestPara, -115, 0.4, true);
-    MoveEncoderPID(TestPara, 70, 24, 0.4, -115, true);
+    MoveEncoderPID(TestPara, 70, 25, 0.4, -115, true);
     MoveEncoderPID(TestPara, -50, 9 , 0.4, -115, true);
     TurnMaxTimePID(TestPara, -98, 0.4, true);
-    MoveEncoderPID(TestPara, 50, 22, 0.4, -98, true);
+    MoveEncoderPID(TestPara, 50, 23, 0.4, -98, true);
     MoveEncoderPID(TestPara, -50, 28, 0.4, -98, true);
     TurnMaxTimePID(TestPara, -54, 0.4, true);
     MoveEncoderPID(TestPara, 50, -15, 0.4, -54, true);
